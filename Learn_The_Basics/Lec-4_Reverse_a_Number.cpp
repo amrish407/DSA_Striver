@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 
-
 //Code for coding Ninja Platform
 
 long reverseBits(long n) {
