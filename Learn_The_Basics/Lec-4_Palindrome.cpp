@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+//Code for the Coding Ninja
 bool palindrome(int n)
 {
     // Write your code here
