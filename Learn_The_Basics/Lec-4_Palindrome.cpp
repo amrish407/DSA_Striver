@@ -11,7 +11,6 @@ bool palindrome(int n)
         int digit = m%10;
         reverse = reverse*10 + digit;
         m = m/10;
-    
     }
 
     if(reverse == n)
