@@ -38,6 +38,7 @@ using namespace std;
             *****
     */
 
+/*
    int main(){
     int n;
     cout << "Enter the size of the Matrix: ";
@@ -52,5 +53,35 @@ using namespace std;
 
     return 0;
    }
+*/
 
+
+
+
+    /*
+        PATTERN 3
+            1
+            12
+            123
+            1234
+            12345
+    */
+
+   int main(){
+    int n;
+    cout << "Please Enter the size of the Matrix: ";
+    cin >> n;
+
+    for(int i=0; i<n; i++){
+        int count=0;
+        for(int j=0; j<i; j++){
+            count++;
+            cout << count;
+        }
+        cout << endl;
+    }
+
+
+    return 0;
+   }
 
