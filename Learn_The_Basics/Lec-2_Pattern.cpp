@@ -97,6 +97,7 @@ using namespace std;
             55555
     */
 
+/*
    int main(){
     int n;
     cout << "Please Enter the size of the Matrix: ";
@@ -113,3 +114,31 @@ using namespace std;
 
     return 0;
    }
+*/
+
+
+
+
+    /*
+        PATTERN 5
+            *****
+            ****
+            ***
+            **
+            *
+    */
+
+int main() {    
+    int n;
+    cout << "Please Enter the size of the Matrix: ";
+    cin >> n;
+    
+    for(int i=0; i<n; i++){
+        for(int j=0; j<(n-i); j++){
+            cout << "*";
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
