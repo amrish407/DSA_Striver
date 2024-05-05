@@ -128,10 +128,11 @@ using namespace std;
             *
     */
 
-int main() {    
-    int n;
-    cout << "Please Enter the size of the Matrix: ";
-    cin >> n;
+/*
+    int main() {    
+        int n;
+        cout << "Please Enter the size of the Matrix: ";
+        cin >> n;
     
     for(int i=0; i<n; i++){
         for(int j=0; j<(n-i); j++){
@@ -142,7 +143,7 @@ int main() {
 
     return 0;
 }
-
+*/
 
 
 
@@ -154,3 +155,18 @@ int main() {
             12
             1
     */
+
+   int main(){
+    int n;
+    cout << "Please Enter the size of the Matrix: ";
+    cin >> n;
+
+    for(int i=0; i<n; i++){
+        int count = 0;
+        for(int j=0; j<(n-i); j++){
+            count++;
+            cout << count;
+        }
+        cout << endl;
+    }
+   }
