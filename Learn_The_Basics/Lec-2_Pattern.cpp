@@ -156,6 +156,7 @@ using namespace std;
             1
     */
 
+/*
    int main(){
     int n;
     cout << "Please Enter the size of the Matrix: ";
@@ -167,6 +168,39 @@ using namespace std;
             count++;
             cout << count;
         }
+        cout << endl;
+    }
+   }
+*/
+
+
+
+
+    /*
+        PATTERN 7   (Hard for me in 1st Attempt)
+                *
+               *** 
+              *****
+             *******
+            *********
+    */
+
+   int main(){
+    int n;
+    cout << "Please Enter the size for the Pyramid: ";
+    cin >> n;
+
+    int i,j,k,l;
+    for(i=0; i<n; i++){
+        for(j=0; j<(n-i-1); j++){
+            cout << " ";
+        }
+            for(k=j; k<n; k++){
+                cout << "*";
+            }
+                for(l=0; l<(n-j-1); l++){
+                    cout << "*";
+                }
         cout << endl;
     }
    }
