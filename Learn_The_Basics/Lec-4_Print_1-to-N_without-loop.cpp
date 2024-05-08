@@ -15,7 +15,6 @@ vector<int> printNos(int x) {
 }
 */
 
-
 //Code for Our Understanding
 
     vector<int> generateArray(int n) {
