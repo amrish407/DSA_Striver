@@ -26,12 +26,13 @@ int doesNodeExist(ListNode* head, int K) {
 }
 
 int main() {
-    // Example linked list: 1 -> 3 -> 5 -> 7 -> 9
+    // Example linked list: 1 -> 3 -> 5 -> 7 -> 9 -> 10
     ListNode* head = new ListNode(1);
     head->next = new ListNode(3);
     head->next->next = new ListNode(5);
     head->next->next->next = new ListNode(7);
     head->next->next->next->next = new ListNode(9);
+    head->next->next->next->next = new ListNode(10);
 
     // Check if node with value 5 exists
     int K = 5;
