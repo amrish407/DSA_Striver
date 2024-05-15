@@ -3,6 +3,8 @@ using namespace std;
 
 
 //Code for the (Geeks For Geeks) Platform
+//Selection Sort
+
 
 class Solution
 {
