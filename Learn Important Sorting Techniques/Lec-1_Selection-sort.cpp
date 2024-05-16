@@ -3,7 +3,7 @@ using namespace std;
 
 
 //Code for the (Geeks For Geeks) Platform
-//Selection Sort
+//Selection Sort Algorithm
 
 
 class Solution
