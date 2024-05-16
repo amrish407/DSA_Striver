@@ -3,7 +3,7 @@ using namespace std;
 
 
 //Code for the (Geeks For Geeks) Platform
-//Problem -> Bubble Sort
+//Problem -> Bubble Sort Algorithm
 
 
 class Solution {
