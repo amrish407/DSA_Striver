@@ -3,7 +3,7 @@ using namespace std;
 
 
 //Code for (Geeks For Geeks) Platform
-//Problem -> Insertion Sort
+//Problem -> Insertion Sort Algorithm
 
 
 
