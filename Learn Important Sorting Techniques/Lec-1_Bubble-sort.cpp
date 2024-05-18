@@ -6,7 +6,6 @@ using namespace std;
 //Problem -> Bubble Sort Algorithm
 
 
-
 class Solution {
   public:
     // Function to sort the array using bubble sort algorithm.
