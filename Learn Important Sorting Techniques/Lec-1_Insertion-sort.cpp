@@ -15,7 +15,7 @@ class Solution
     }
      public:
     //Function to sort the array using insertion sort algorithm.
-    void insertionSort(int arr[], int n)
+    void insertionSort(int arr[], int num)
     {
         //code here
         for(int i = 1; i < n; i++){
